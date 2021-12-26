@@ -6,7 +6,8 @@
 # Over 10 lb 	$4.75 	$20.00
 
 weight = 8.4
-cost_ground = ""
+cost_ground = None
+cost_ground_preimum = 125.00 #Fixed Flat fee.
 
 # Ground Shipping
 if weight <= 2:
@@ -19,6 +20,9 @@ else:
     cost_ground = weight * 4.75 + 20.00
 
 print("The Total cost of your Shipping is: ", cost_ground)
+
+
+
 
 
 
